@@ -7,7 +7,7 @@ Signal uses your phone's data connection (WiFi/3G/4G) to communicate securely, o
 ## Contributing Bug reports
 We use GitHub for bug tracking. Please search the existing issues for your bug and create a new one if the issue is not yet tracked!
 
-https://github.com/signalblockchain/signal-android/issues
+https://github.com/signalblockchain/signalbc-android/issues
 
 ## Contributing Translations
 Interested in helping to translate Signal? Contribute here:
