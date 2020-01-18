@@ -213,10 +213,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('/Users/upton/.android/release.keystore')
-            storePassword 'zaq12wsx'
+            storeFile file('/path/to/release.keystore')
+            storePassword 'pwd'
             keyAlias 'release'
-            keyPassword 'zaq12wsx'
+            keyPassword 'pwd'
         }
     }
 
