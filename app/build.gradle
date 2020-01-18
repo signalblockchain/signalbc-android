@@ -30,25 +30,25 @@ apply from: 'witness-verifications.gradle'
 
 repositories {
     maven {
-        url "https://raw.github.com/signalapp/maven/master/photoview/releases/"
+        url "https://raw.github.com/signalblockchain/maven/master/photoview/releases/"
         content {
             includeGroupByRegex "com\\.github\\.chrisbanes.*"
         }
     }
     maven {
-        url "https://raw.github.com/signalapp/maven/master/shortcutbadger/releases/"
+        url "https://raw.github.com/signalblockchain/maven/master/shortcutbadger/releases/"
         content {
             includeGroupByRegex "me\\.leolin.*"
         }
     }
     maven {
-        url "https://raw.github.com/signalapp/maven/master/circular-progress-button/releases/"
+        url "https://raw.github.com/signalblockchain/maven/master/circular-progress-button/releases/"
         content {
             includeGroupByRegex "com\\.github\\.dmytrodanylyk\\.circular-progress-button\\.*"
         }
     }
     maven {
-        url "https://raw.github.com/signalapp/maven/master/sqlcipher/release/"
+        url "https://raw.github.com/signalblockchain/maven/master/sqlcipher/release/"
         content {
             includeGroupByRegex "org\\.signal.*"
         }
