@@ -132,7 +132,7 @@ public static void export(@NonNull Context context,
   {
     List<String> tables = new LinkedList<>();
 
-    try (Cursor cursor = input.rawQuery("SELECT sql, name, type FROM sqlite_master", null)) {
+    try (Cursor cursor = input.rawQuery("SELECT sql, name, type FROM sqlite_master where type = 1", null)) {
       while (cursor != null && cursor.moveToNext()) {
         String sql  = cursor.getString(0);
         String name = cursor.getString(1);
