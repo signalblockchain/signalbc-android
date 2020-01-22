@@ -57,7 +57,7 @@ class BlurHashDecoder {
         int colorEnc = Base83.decode(blurHash, 2, 6);
         colors[i] = decodeDc(colorEnc);
       } else {
-        int from = 4 + i * 2;
+        int from = 2 + i * 2;
         int colorEnc = Base83.decode(blurHash, from, from + 2);
         colors[i] = decodeAc(colorEnc, maxAc * punch);
       }
